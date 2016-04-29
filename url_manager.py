@@ -7,8 +7,8 @@ class UrlManager(object):
         if url is None:
             return
 
-        for x in range(5000,-10,-10):
-            url = 'http://steamcommunity.com/market/search/render/?query=&start=%s&count=10&search_descriptions=0&sort_column=popular&sort_dir=desc' % (x)
+        for x in range(29000,-100,-100):
+            url = 'http://steamcommunity.com/market/search/render/?query=&start=%s&count=100&search_descriptions=0&sort_column=popular&sort_dir=desc' % (x)
             self.new_urls.append(url)
 
     def add_failed_url(self, url):

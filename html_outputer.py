@@ -8,7 +8,7 @@ class HtmlOutputer(object):
         self.datas.append(data)
 
     def output_html(self):
-        fout = open('output.html', 'w', encoding='utf-8')
+        fout = open('new-output.html', 'w', encoding='utf-8')
 
         fout.write("<html>")
         fout.write("<meta charset='utf-8'>")
@@ -17,7 +17,7 @@ class HtmlOutputer(object):
         print(self.datas)
         for data in self.datas:
 
-            for x in range(10):
+            for x in range(100):
                 fout.write("<tr>")
                 fout.write("<td>%s</td>" % data['item%s' % (x)]['name'])
                 fout.write("<td>%s</td>" % data['item%s' % (x)]['price'])

@@ -11,7 +11,6 @@ class HtmlDownloader(object):
         cj = http.cookiejar.CookieJar()
         opener = request.build_opener(request.HTTPCookieProcessor(cj))
         request.install_opener(opener)
-        print('downloading page:', url)
         response = request.urlopen(url)
         print("Status Code:",response.getcode())
         if response.getcode() != 200:

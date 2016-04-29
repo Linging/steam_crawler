@@ -17,7 +17,7 @@ class HtmlParser(object):
     def _get_new_data(self, page_url, soup):
         res_data = {}
 
-        for x in range(10):
+        for x in range(100):
             record = {}
 
             item_name = soup.find('div', class_="market_listing_row market_recent_listing_row market_listing_searchresult",id="result_%s" % (x)).find('span', class_="market_listing_item_name")
