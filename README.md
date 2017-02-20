@@ -27,6 +27,6 @@ output.html
 
 ## 练习小玩意儿，请勿吐糟！
 ***
-参考教程：[慕课网](http://www.imooc.com/learn/563)，感谢感谢感谢
+
 
 ps : 安利Steam才是我的真实目的！G胖还钱！
